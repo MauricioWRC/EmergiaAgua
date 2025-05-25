@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&family=Sora:wght@100..800&family=Special+Gothic+Condensed+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100%;
+  background-color: #f0efef;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 5px 5px #0000004d;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+}
+
+.logo {
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+nav ul li:hover .link {
+  color: rgb(238, 127, 0);
+  font-size: 20px;
+  transition: 0.8s;
+}
+
+.link {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  padding: 10px 30px;
+  font-family: "Sora", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+main {
+  margin: auto;
+  padding-top: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#IMG_PRINCIPAL img {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.noticias {
+  display: flex;
+  max-width: 900px;
+  margin: 40px auto;
+  gap: 40px;
+  padding: 0 20px;
+}
+
+.destaques {
+  flex: 2;
+}
+
+.destaques h2,
+.ultimas h2 {
+  color: #0f33a8;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #0f33a8;
+  display: inline-block;
+}
+
+.noticia img {
+margin-right: 100px;
+  height: auto;
+  border-radius: 6px;
+ 
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
+  font-size: 0.9em;
+  color: #555555;
+}
+
+.categoria {
+  background: linear-gradient(90deg, #ff8c00 0%, #ff921d 44%, #ff8c00 100%);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 30px;
+  font-size: 0.75em;
+}
+
+.data {
+  color: #666;
+}
+
+
+.ultimas {
+  flex: 1;
+}
+
+.ultimas ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ultimas p {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+
+.explicacao{
+  margin-bottom: 30px;
+}
+article {
+  width: 100%;
+  padding-top: 80px;
+}
+
+.Info {
+  background: #0f33a8;
+  padding-bottom: 70px;
+  border-bottom: solid black 2px;
+}
+
+.Question {
+  padding: 0 20px;
+  font-size: 23px;
+  font-family: "Sora", sans-serif;
+  color: #ff9500;
+}
+
+.Texto {
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: "Sora", sans-serif;
+  color: white;
+}
+
+h3 {
+  font-family: "Sora", sans-serif;
+}
+
+footer {
+  border-top: 1px solid black;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 30px 10px;
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+}
+
+#chuva{
+  margin-top: 22px;
+  text-align: center;
+  font-size: 30px;
+    font-family: "Sora", sans-serif;
+}
+.icone-chuva {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  margin-top: 30px;
+ 
+}
+
+.icone-container {
+  text-align: center;
+}
+
+.icone-container img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.icone-container p {
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+  color: #0f33a8;
+}
+
+.icone-container {
+  display: flex;
+  gap: 300px; 
+  align-items: center;
+}
+
+.icone-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icone-item img {
+  width: 50px;
+  height: auto;
+}
+.btn-redirect {
+  display: block;
+  margin: 40px auto 0;
+  padding: 22px 40px;
+  background: linear-gradient(270deg, #0056b179 0%, rgba(0, 86, 177, 0.767) 44%, #0056b1 100%);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.8s ease, color 0.3s ease, transform 0.5s;
+}
+
+.btn-redirect:hover {
+  background: linear-gradient(90deg, #ff8c0079 0%, #ff921db4 44%, #ff8c00 100%);
+  color: #fff;
+  transition: background 0.8s ease, color 0.3s ease, transform 0.5s;
+  transform: scale(1.01);
+}
+
+
+
+#FormCalcular {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#FormCalcular label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#FormCalcular input,
+#FormCalcular select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+
+/* Responsividade */
+
+
+
+/* Ajuste para nav e layout em telas menores */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .IMG_PRINCIPAL{
+    margin-top: 1000px;
+  }
+
+  .noticias {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .icone-container {
+    gap: 20px;
+  }
+
+  .btn-redirect {
+    width: 100%;
+    max-width: 300px;
+    font-size: 16px;
+  }
+}
+
+/* Estilos extras para telas muito pequenas */
+@media (max-width: 480px) {
+  .noticia img {
+    margin-top: 10px;
+  }
+
+  .Question {
+    font-size: 16px;
+  }
+
+  .Texto {
+    font-size: 13px;
+  }
+
+  .icone-item img {
+    width: 40px;
+  }
+
+  #chuva {
+    font-size: 24px;
+    padding: 0 10px;
+  }
+}
