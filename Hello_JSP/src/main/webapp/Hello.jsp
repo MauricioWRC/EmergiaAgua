@@ -106,7 +106,7 @@ Na natureza, o ciclo hidrológico — conhecido como ciclo da água — é respo
   <label for="volume">Volume mensal consumido de água (litros):</label>
   <input type="number" id="volume" name="volume" required>
 
-  <label for="tipo">Tipo de água:</label>
+  <label for="tipo">Tipo de fonte de água:</label>
   <select id="tipo" name="tipo" required>
     <option value="tratada">Água tratada urbana</option>
     <option value="subterranea">Água subterrânea</option>

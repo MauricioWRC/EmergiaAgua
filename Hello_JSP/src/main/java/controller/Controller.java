@@ -260,6 +260,5 @@ public class Controller extends HttpServlet {
 		}
 	}
 	
-	//Gerar pdf
 	
 }
